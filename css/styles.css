@@ -1,6 +1,6 @@
 body{
 	background: #7F7B7B;
-	font: 20px "Impact";
+	font: 10px "Press Start 2P";
 	margin: 0px;
 	padding: 0px;
 }
@@ -8,52 +8,14 @@ html{
 	margin: 0px;
 	padding: 0px;
 }
+p{
 
-.site-audio{
-	font: 2px;
-	display: inline-block;
-    margin-left: 5px;
-    width: 10px;
-    position: relative;
-    right: 15px;
-    cursor: pointer;
 }
-
-#header {
-	position: fixed;
-	width: 100%;
-	left: 0;
-	top:0;
-	z-index: 100;
-	background-color: rgba(30,30,30,0.6);
-	-webkit-transition: all 0,5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-}
-
-.top_mnu {
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-	text-align: center;
-}
-
-.top_mnu li {
-	display: inline-block;
-	margin: 20px 10px;
-}
-
 
 div{
 	font-family: "Press Start 2P";
 	color: #EC5B5B;
   	padding: 20px 40px 20px 40px;
-}
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
 }
 #myVideo {
 	height: 100%;
@@ -64,7 +26,4 @@ div{
     min-width: 100%; 
     min-height: 100%;
 }
-/*.button{
-	position: ;
-	background: rgba(30, 30, 30, 1)
-}*/
+
