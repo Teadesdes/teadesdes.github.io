@@ -3,21 +3,44 @@
 <head>
 	<meta charset="UTF-8">
 	<title>My test project</title>
-	<link rel ="stylesheet" href = "css/styles.css"></link>
+	<link href="css/styles.css" rel="stylesheet"></link>
+	<link rel ="stylesheet" href = "teadesdes.github.io/css/styles.css"></link>
 	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-<!-- 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-	<script src="HTML5-Background-Video-master/jquery.backgroundvideo.min.js"></script>
-	<script src="Js.js"></script> -->
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<!-- <script src="HTML5-Background-Video-master/jquery.backgroundvideo.min.js"></script> -->
+	<script src="Js.js"></script>
 </head>
 <body>
 
-<video autoplay muted loop id="myVideo">
-  <source src="video/WoW55.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
+	<header id="header">
+		<ul class="top_mnu">
+			<li>Главная</li>
+			<li>Помойка</li>
+			<li><<a href="fun.html" download">Download</a></li>
+			<!-- <button class="button" type="button">test</button> -->
+		</ul>
+	</header>
 
+<!-- 	<div class="top-right">
+	<a class="audio-control" class="site-audio">123</a>
+	
+</div> -->
+
+
+	<div class="parallax">
+		<video autoplay muted loop id="myVideo">
+		  <source src="video/WoW55.mp4" type="video/mp4">
+		  Your browser does not support HTML5 video.
+		</video>
+		<div id="melody" class="button" data-src="audio/_VY1v4-EYE.mp3"">
+		<audio autoplay controls>
+
+			<source src="audio/_VY1v4-EYE.mp3" type="audio/mpeg">
+		</audio>
+		</div>
+	</div>
 <audio autoplay>
-	<source src="_VY1v4-EYE.mp3" type="audio/mpeg">
+	<source src="teadesdes.github.io/_VY1v4-EYE.mp3" type="audio/mpeg">
 </audio>
 
 </body>
